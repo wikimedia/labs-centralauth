@@ -11,6 +11,10 @@ $wgCaptchaDirectory = "$sharedextension/ConfirmEdit/FancyCaptcha";
 $wgCaptchaDirectoryLevels = 0;
 require_once("$sharedextension/ConfirmEdit/FancyCaptcha/FancyCaptchaSecret.php");
 
+// LabsCentralAuth
+$wgSharedDB = 'centralauth';
+$wgSharedTables = array( 'labscentralauth' );
+
 // CentralAuth
 require_once "$centralauthpath/CentralAuth.php";
 $wgCentralAuthAutoNew = true;
