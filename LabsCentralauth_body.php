@@ -539,7 +539,7 @@ class LabsCentralauth extends SpecialPage {
 
 		$offset = 0;
 		if ( $data[0] == 'System' || $tz == '' ) {
-			# A Global offset in minutes.
+			# A Global offset in minutes.
 			if ( isset( $wgLocaltimezone ) ) {
 				$return = $wgLocaltimezone;
 			} else {
